@@ -5,11 +5,11 @@ Platform = platform.platform
 
 
 def check_os():
-    if "Linux" in Platform:
+    if "Linux" in str(Platform):
         test_first_linux()
-    elif "Windows" in Platform:
+    elif "Windows" in str(Platform):
         test_second_window()
-    elif "macOS" in Platform:
+    elif "macOS" in str(Platform):
         test_third_macOS()
 
 
