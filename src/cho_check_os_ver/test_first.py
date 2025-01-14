@@ -7,11 +7,11 @@ Platform = platform.platform
 def check_os():
     v = cho_check_os_ver.osver
     if "Linux" in str(Platform):
-        test_first_linux(v)
+        test_first_linux(v.get_os_pretty_name())
     elif "Windows" in str(Platform):
-        test_second_window(v)
+        test_second_window(v.get_os_version_win())
     elif "macOS" in str(Platform):
-        test_third_macOS(v)
+        test_third_macOS(v.get_os_version_macOS())
 
 # this is for linux
 def test_first_linux(v):
