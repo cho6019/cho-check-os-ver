@@ -11,7 +11,7 @@ def pick():
     a = random.randint(1, 7)
 
 
-    match i:
+    match a:
         case 1:
             from check_os_ver.hi import hi as hi1
             return(hi1())
