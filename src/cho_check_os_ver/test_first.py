@@ -5,18 +5,16 @@ Platform = platform.platform
 
 
 def check_os():
+    v = cho_check_os_ver.osver
     if "Linux" in str(Platform):
-        test_first_linux()
+        test_first_linux(v)
     elif "Windows" in str(Platform):
-        test_second_window()
+        test_second_window(v)
     elif "macOS" in str(Platform):
-        test_third_macOS()
-
-
-v = cho_check_os_ver.osver
+        test_third_macOS(v)
 
 # this is for linux
-def test_first_linux():
+def test_first_linux(v):
     a = v.get_os_pretty_name()
     assert a is not None, "Error, None값이 부여됩니다"
     # 편의상 비활성화
@@ -35,11 +33,11 @@ def test_first_linux():
 
     return(a)
 
-def test_second_window():
+def test_second_window(v):
     a = v.get_os_version_win()
     return(a)
 
-def test_third_macOS():
+def test_third_macOS(v):
     a = v.get_os_version_macOS()
     return(a)
 
