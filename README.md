@@ -66,6 +66,9 @@ $ python
 >>> from cho_check_os_ver.hi  import hi
 >>> hi()
 
+>>> from cho_check_os_ver.randomimport import pick
+>>> pick()
+
 ```
 
 ### Development environment setting
