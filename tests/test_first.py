@@ -1,7 +1,7 @@
 import cho_check_os_ver.osver
 import platform
 
-Platform = platform.platform
+Platform = platform.platform()
 
 
 def check_os():
