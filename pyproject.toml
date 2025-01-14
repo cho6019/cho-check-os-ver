@@ -1,18 +1,18 @@
 [project]
 name = "cho-check-os-ver"
-version = "0.3.8.2"
+version = "0.3.8.3"
 description = "Default template for PDM package"
 authors = [
     {name = "cho6019", email = "j01040864205@gmail.com"},
 ]
 dependencies = [
-	"check_os_ver==0.2.1",
-	"hj-check-os-version==0.2.0",
-	"jacob-os-version-check==0.2.4",
-	"lucas-check-os-ver==0.2.0",
-	"stundrg-check-os-ver==0.2.3",
-	"nunininu-check-os-ver==0.2.0",
-	"seo-check-os-version==0.2.0"
+	"check_os_ver>=0.2.1",
+	"hj-check-os-version>=0.2.0",
+	"jacob-os-version-check>=0.2.4",
+	"lucas-check-os-ver>=0.2.0",
+	"stundrg-check-os-ver>=0.2.3",
+	"nunininu-check-os-ver>=0.2.0",
+	"seo-check-os-version>=0.2.0"
 	
 
 ]
