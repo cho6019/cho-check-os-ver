@@ -1,6 +1,6 @@
 [project]
 name = "cho-check-os-ver"
-version = "0.4.1"
+version = "0.4.2"
 description = "Default template for PDM package"
 authors = [
     {name = "cho6019", email = "j01040864205@gmail.com"},
