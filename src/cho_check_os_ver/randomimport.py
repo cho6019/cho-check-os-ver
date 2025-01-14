@@ -1,10 +1,10 @@
 import random
-from check_os_ver.hi import hi as hi1
-from hj_check_os_version.hi import hi as hi2
-from jacob_os_version_check.hi import hi as hi3
-from lucas_check_os_ver.hi import hi as hi4
-from stundrg_check_os_ver.hi import hi as hi5
-from nunininu_check_os_ver.hi import hi as hi6
+#from check_os_ver.hi import hi as hi1
+#from hj_check_os_version.hi import hi as hi2
+#from jacob_os_version_check.hi import hi as hi3
+#from lucas_check_os_ver.hi import hi as hi4
+#from stundrg_check_os_ver.hi import hi as hi5
+#from nunininu_check_os_ver.hi import hi as hi6
 #from seo-check-os-version.hi import hi as hi7
 
 def pick():
