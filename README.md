@@ -71,6 +71,14 @@ $ python
 
 ```
 
+### Test
+```bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov 
+```
+
 ### Development environment setting
 ```bash
 # install PDM

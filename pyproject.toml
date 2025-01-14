@@ -36,5 +36,11 @@ Issues = "https://github.com/cho6019/cho-check-os-ver/issues"
 [project.scripts]
 cho_hi = "cho_check_os_ver.hi:hi"
 cho_rand = "cho_check_os_ver.randomimport:pick"
+cho_os_ver = "cho_check_os_ver.osver:get_os_pretty_name"
 
 
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
