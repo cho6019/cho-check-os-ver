@@ -34,6 +34,6 @@ Homepage = "https://github.com/cho6019/cho-check-os-ver"
 Issues = "https://github.com/cho6019/cho-check-os-ver/issues"
 
 [project.scripts]
-cho-hi = "cho-check-os-ver.hi:hi"
+cho-hi = "cho_check_os_ver.hi:hi"
 
 
