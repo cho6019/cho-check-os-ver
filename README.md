@@ -66,6 +66,21 @@ $ python
 >>> from cho_check_os_ver.hi  import hi
 >>> hi()
 
+>>> from cho_check_os_ver.randomimport import pick
+>>> pick()
+
+
+# HW 2025.01.14 how to use
+>>> from cho_check_os_ver.test_first import check_os
+>>> check_os()
+```
+
+### Test
+```bash
+# $ pdm add -dG test pytest pytest-cov
+$ pytest
+$ pytest -s
+$ pytest --cov 
 ```
 
 ### Development environment setting

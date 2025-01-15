@@ -1,11 +1,19 @@
 [project]
 name = "cho-check-os-ver"
-version = "0.2.3"
+version = "0.4.5"
 description = "Default template for PDM package"
 authors = [
     {name = "cho6019", email = "j01040864205@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "check_os_ver>=0.2.1",
+    "hj-check-os-version>=0.2.0",
+    "jacob-os-version-check>=0.2.4",
+    "lucas-check-os-ver>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+    "nunininu-check-os-ver>=0.2.0",
+    "seo-check-os-version>=0.2.0",
+]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
@@ -14,7 +22,6 @@ license = {text = "MIT"}
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
-
 [tool.pdm]
 distribution = true
 
@@ -22,3 +29,15 @@ distribution = true
 [project.urls]
 Homepage = "https://github.com/cho6019/cho-check-os-ver"
 Issues = "https://github.com/cho6019/cho-check-os-ver/issues"
+
+[project.scripts]
+cho_hi = "cho_check_os_ver.hi:hi"
+cho_rand = "cho_check_os_ver.randomimport:pick"
+cho_os_ver = "cho_check_os_ver.osver:get_os_pretty_name"
+
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
